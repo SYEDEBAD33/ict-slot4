@@ -1,0 +1,32 @@
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 25em;
+    height: 20em;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 0.4em;
+    background: rgba(255, 255, 255, 0.67);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+body{
+    background-color: rgb(66, 21, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input{
+    width: 15em;
+    height: 2em;
+    border-radius: 45px;
+    border: 0.5 px solid gray;
+    padding: 0.3em;
+}
